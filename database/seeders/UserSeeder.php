@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             'email' => 'admin@hme.poliban.ac.id',
             'password' => bcrypt('Admin#1234'),
         ]);
-
+        
         $admin->assignRole('admin');
 
         // $admin = User::create([

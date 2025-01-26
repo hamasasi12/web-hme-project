@@ -21,8 +21,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.auth.auth-login', ['type_menu' => '']);
+    // return view('pages.auth.auth-login', ['type_menu' => '']);
+    return view('welcome');
 });
+Route::get('login', function() {
+    return view('pages.auth.auth-login', ['type_menu' => '']);
+})->name('login');
+
 Route::get('/forget', function(){
     return view('pages.auth.auth-forgot-password');
 })->name('forget');

@@ -17,7 +17,7 @@
                 width="100"
                 class="shadow-light rounded-circle">
         </div>
-            <h1>Sistem Informasi Rapat HME</h1>
+            <h1>Sistem Informasi Terpadu HME</h1>
         </div>
             
         <div class="card-body">
@@ -71,7 +71,6 @@
             </form>
 
         </div>
-
     </div>
 <script>
     document.getElementById("togglePassword").addEventListener("click", function() {
