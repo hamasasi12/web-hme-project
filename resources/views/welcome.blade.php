@@ -49,11 +49,13 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
-                    <li><a class="nav-link scrollto" href="#Strukturorganisasi">Struktur orgnasisasi</a></li>
+                    <li><a class="nav-link scrollto" href="#Strukturorganisasi">Struktur organisasi</a></li>
                     <li><a class="nav-link scrollto" href="#team">Divisi</a></li>
                     <li><a class="nav-link scrollto" href="#portfolio">Kegiatan</a></li>
-                    <li class="nav-link scrollto">
-                        <a href="{{ route('login') }}" class="login">
+                    <li><a class="nav-link scrollto" href="#mdprt">Media Partner</a></li>
+                    <li><a class="nav-link scrollto" href="#oprc">Open Recruitment</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="{{ route('login') }}">
                             Login
                         </a>
                     </li>
@@ -98,7 +100,7 @@
                         <img src=" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-1 col-md-2 col-3 d-flex align-items-center justify-content-center">
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="" class="img-fluid" alt="">
                     </div>
 
@@ -110,9 +112,9 @@
                         <img src="assets/img/clients/hme.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/img/Anniv.png" class="img-fluid" alt="">
-                    </div>
+                    <!--<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">-->
+                    <!--  <img src="assets/img/Anniv.png" class="img-fluid" alt="">-->
+                    <!--</div>-->
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="" class="img-fluid" alt="">
@@ -137,7 +139,7 @@
 
                 <div class="row content align-center">
                     <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="assets/img/rico.jpg" alt="">
+                        <img class="img-fluid" src="assets/img/rico.jpg" alt="">
                     </div>
 
                     <div class="col-lg-6">
@@ -146,7 +148,7 @@
             </p> -->
 
                         <p>
-                            Puji syukur atas kehadirat Ilahi, Allah yang Mah Kuasa, sehingga website Himpunan Mahasiswa
+                            Puji syukur atas kehadirat Ilahi, Allah yang Maha Kuasa, sehingga website Himpunan Mahasiswa
                             Elektro Politeknik Negeri Banjarmasin dapat diselesaikan, Website ini diluncurkan dalam
                             rangka memajukan Himpunan Mahasiswa Elektro di era berkembangnya Teknologi Informasi yang
                             begitu pesat, sehingga diperlukan berbagai informasi kegiatan, program kerja, dan informasi
@@ -195,8 +197,8 @@
                 </div>
 
                 <div class="row content align-center">
-                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="assets/img/Struktur.png" alt="Struktur Organisasi">
+                    <div class="col-lg" data-aos="zoom-in" data-aos-delay="200">
+                        <img class="img-fluid" src="assets/img/Struktur.png" alt="">
 
                     </div>
                     </p>
@@ -227,14 +229,15 @@
                                 <span>Koordinator Divisi Keagamaan</span>
                                 <p>Prodi Teknik Informatika '22</p>
                                 <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <!--<a href=""><i class="ri-twitter-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-facebook-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-instagram-fill"></i></a>-->
+                                    <!--<a href=""> <i class="ri-linkedin-box-fill"></i> </a>-->
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
                         <div class="member d-flex align-items-start">
@@ -245,10 +248,10 @@
                                 <span>Koordinator Divisi Minat dan Bakat</span>
                                 <p>Prodi Teknik Informatika '22</p>
                                 <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <!--<a href=""><i class="ri-twitter-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-facebook-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-instagram-fill"></i></a>-->
+                                    <!--<a href=""> <i class="ri-linkedin-box-fill"></i> </a>-->
                                 </div>
                             </div>
                         </div>
@@ -263,10 +266,10 @@
                                 <span>Koordinator Divisi Media dan Informasi</span>
                                 <p>Prodi Elektronika '22</p>
                                 <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <!--<a href=""><i class="ri-twitter-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-facebook-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-instagram-fill"></i></a>-->
+                                    <!--<a href=""> <i class="ri-linkedin-box-fill"></i> </a>-->
                                 </div>
                             </div>
                         </div>
@@ -281,10 +284,10 @@
                                 <span>Koordinator Divisi Bimbingan Pendidikan</span>
                                 <p>Prodi Teknik Informatika '22</p>
                                 <div class="social">
-                                    <a href=""><i class="ri-twitter-fill"></i></a>
-                                    <a href=""><i class="ri-facebook-fill"></i></a>
-                                    <a href=""><i class="ri-instagram-fill"></i></a>
-                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <!--<a href=""><i class="ri-twitter-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-facebook-fill"></i></a>-->
+                                    <!--<a href=""><i class="ri-instagram-fill"></i></a>-->
+                                    <!--<a href=""> <i class="ri-linkedin-box-fill"></i> </a>-->
                                 </div>
                             </div>
                         </div>
@@ -300,10 +303,10 @@
                                     <span>Koordinator Divisi Hubungan Masyarakat</span>
                                     <p>Prodi Teknik Informatika '22</p>
                                     <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                        <!--<a href=""><i class="ri-twitter-fill"></i></a>-->
+                                        <!--<a href=""><i class="ri-facebook-fill"></i></a>-->
+                                        <!--<a href=""><i class="ri-instagram-fill"></i></a>-->
+                                        <!--<a href=""> <i class="ri-linkedin-box-fill"></i> </a>-->
                                     </div>
                                 </div>
                             </div>
@@ -367,183 +370,176 @@
                         <div class="portfolio-info">
                             <h4>Pelantikan Himpunan Mahasiswa Elektro Periode 2024/2025</h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Pelantikan1.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
+                            <!--<a href="assets/img/portfolio/Pelantikan1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Takjil.jpg" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/takjil.jpg" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Buka bersama & bagi takjil </h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Takjil.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/takjil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.png" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/workshop.png" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Workshop Curriculum Vitae 2024</h4>
+                            <!--<a href="workshop" class="btn btn-primary btn-sm">-->
+                            <!--  <i class="fas fa-arrow-circle-right"></i> Selengkapnya-->
+                            <!--</a>-->
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Coming.png" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/Workshop.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.png" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Coming Soon</h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Coming.png" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/takjil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.png" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Coming Soon</h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Coming.png" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.png" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Coming Soon</h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Coming.png" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.png" class="img-fluid"
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
                                 alt=""></div>
                         <div class="portfolio-info">
-                            <h4>Bagi Takjil & buka bersama</h4>
+                            <h4>Coming Soon</h4>
                             <!-- <p>App</p> -->
-                            <a href="assets/img/portfolio/Coming.png" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="Selengkapnya"><i
-                                    class="bx bx-link"></i></a>
-                            <!-- <li><a class="nav-link scrollto" href="portfolio-details.html">More Details</a></li> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
                         </div>
                     </div>
 
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
+                                alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Coming Soon</h4>
+                            <!-- <p>App</p> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+                        </div>
+                    </div>
 
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
+                                alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Coming Soon</h4>
+                            <!-- <p>App</p> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+                        </div>
+                    </div>
 
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div> -->
-
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div> -->
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-img"><img src="assets/img/portfolio/Coming.PNG" class="img-fluid"
+                                alt=""></div>
+                        <div class="portfolio-info">
+                            <h4>Coming Soon</h4>
+                            <!-- <p>App</p> -->
+                            <!--<a href="assets/img/portfolio/coming.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                            <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+                        </div>
+                    </div>
 
                 </div>
+
+            </div>
         </section><!-- End Portfolio Section -->
 
     </main><!-- End #main -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="mdprt" class="cta">
+        <div class="container" data-aos="zoom-in">
+            <div class="row align-items-center">
+                <!-- Menambahkan kelas align-items-center untuk mengatur posisi vertikal ke tengah -->
+                <div class="col-lg-9">
+                    <h3>Media Partner</h3>
+                    <p>
+                        Apa itu Media Partner? Sebagai mitra media kami, Anda adalah bagian integral dari ekosistem kami
+                        yang memainkan peran kunci dalam memperluas jangkauan dan dampak konten. Sebagai media partner,
+                        Anda akan mendapatkan akses eksklusif ke berbagai fitur yang dirancang untuk meningkatkan
+                        visibilitas konten Anda, termasuk promosi bersama, kolaborasi kreatif, dan analisis kinerja yang
+                        mendalam.
+
+                        Dengan menjadi media partner kami, Anda tidak hanya mendapatkan kesempatan untuk meningkatkan
+                        lalu lintas dan interaksi dengan audiens yang relevan, tetapi juga menjadi bagian dari komunitas
+                        yang saling mendukung dan tumbuh bersama.
+                    </p>
+                    <h5 style="color: white;">Narahubung : 085828715576 (Sri Mulyani)</h5>
+                </div>
+                <div class="col-lg-3 text-center"> <!-- Menggunakan kelas text-center -->
+                    <button
+                        onclick="window.open('https://docs.google.com/forms/d/1bKdbus0qDoOQ4H0APPkm7CeBV3v72RZl8ha1Nn-ozUU/edit', '_blank')"
+                        class="cta-btn align-middle glightbox" style="background-color: #37517e;">Formulir</button>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Cta Section -->
+
+    <hr style="border: 1px solid #37517e; margin: 40px 0;"> <!-- Garis pemisah -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="oprc" class="cta" style="background-color: #f8f9fa;">
+        <div class="container" data-aos="zoom-in">
+            <div class="row align-items-center">
+                <!-- Menambahkan kelas align-items-center untuk mengatur posisi vertikal ke tengah -->
+                <div class="col-lg-9">
+                    <h3>Form Pendaftaran Open Recruitment</h3>
+                    <p>
+                        Daftarkan dirimu sekarang dan bergabunglah dengan Himpunan Mahasiswa Elektro Poliban! Jadilah
+                        bagian dari himpunan yang penuh inovasi, kolaborasi, dan semangat untuk membangun masa depan
+                        teknologi bersama. Isi formulir pendaftaran dan tunjukkan kontribusimu!
+                    </p>
+                    <h5 style="color: white;">Narahubung:</h5>
+                    <h5 style="color: white;">081351966670 (Raisa)</h5>
+                    <h5 style="color: white;">083179458396 (Lisna)</h5>
+                </div>
+                <div class="col-lg-3 text-center"> <!-- Menggunakan kelas text-center -->
+                    <button onclick="window.open('https://bit.ly/BerkasOprecHME2025-2026', '_blank')"
+                        class="cta-btn align-middle glightbox" style="background-color: #37517e;">Formulir</button>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Cta Section -->
+
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -572,7 +568,7 @@
                             Jalan Brigjen H. Hasan Basri, Pangeran<br>
                             Kec.Banjarmasin Utara, 707124<br>
                             Kalimantan Selatan <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <!--<strong>Phone:</strong> +1 5589 55488 55<br>-->
                             <strong>Email:</strong> hmepoliban14@gmail.com<br>
                         </p>
                     </div>
@@ -584,6 +580,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#team">Divisi</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Kegiatan</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#mdprt">Media Partner</a></li>
                         </ul>
                     </div>
 
@@ -600,6 +597,8 @@
                                     class="bx bxl-youtube"></i></a>
                             <a href="https://www.facebook.com/profile.php?id=100077874230516" class="facebook"><i
                                     class="bx bxl-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@hmepoliban?_t"=8lozKMNjDw0&_r=1=100077874230516"
+                                class="tiktok"><i class="bx bxl-tiktok"></i></a>
                             <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
                         </div>
@@ -618,8 +617,7 @@
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-                {{-- All Rights Reserved --}}
-                Made By Hmsakif. HME 22
+                All Rights Reserved
             </div>
         </div>
     </footer><!-- End Footer -->
@@ -643,8 +641,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
-
 </body>
-
 
 </html>

@@ -9,21 +9,11 @@ use App\Http\Controllers\UserController;
 use App\Models\Schedule;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
 Route::get('/', function () {
-    // return view('pages.auth.auth-login', ['type_menu' => '']);
     return view('welcome');
 });
+
 Route::get('login', function() {
     return view('pages.auth.auth-login', ['type_menu' => '']);
 })->name('login');
@@ -31,6 +21,7 @@ Route::get('login', function() {
 Route::get('/forget', function(){
     return view('pages.auth.auth-forgot-password');
 })->name('forget');
+
 
 Route::middleware(['auth'])->group(function () {
 
