@@ -24,6 +24,11 @@
                 <a href="{{ route('user.index') }}" class="nav-link"><i class="fas fa-users"></i><span>Users</span></a>
             </li>
         @endcan
+        @can('admin')
+            <li class="nav-item">
+                <a href="{{ route('controlPanel.index') }}" class="nav-link"><i class="bi bi-globe"></i><span>Control Panel</span></a>
+            </li>
+        @endcan
         </ul>
     </aside>
 </div>

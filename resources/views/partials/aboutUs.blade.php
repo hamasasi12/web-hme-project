@@ -7,7 +7,7 @@
 
         <div class="row content align-center">
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-                <img class="img-fluid" src="assets/img/rico.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('assets/img/ketuaUmum.jpg') }}" alt="Ketua Umum" width="700px">
             </div>
 
             <div class="col-lg-6">
@@ -16,18 +16,23 @@
     </p> -->
 
                 <p style="text-align: justify;">
-                    Puji syukur atas kehadirat Ilahi, Allah yang Maha Kuasa, sehingga website Himpunan Mahasiswa
-                    Elektro Politeknik Negeri Banjarmasin dapat diselesaikan, Website ini diluncurkan dalam
-                    rangka memajukan Himpunan Mahasiswa Elektro di era berkembangnya Teknologi Informasi yang
-                    begitu pesat, sehingga diperlukan berbagai informasi kegiatan, program kerja, dan informasi
-                    lainnya, sehingga website Himpunan Mahasiswa Elektro diluncurkan.
+                    <span style="color: rgb(13, 100, 200)"><strong>VISI</strong></span>
+                    <br>
+                    Mewujudkan Himpunan Mahasiswa Elektro sebagai organisasi yang unggul, aktif, dan berintegritas dalam mewadahi
+                    aspirasi mahasiswa Jurusan Teknik Elektro
                 </p>
 
                 <p style="text-align: justify;">
-                    HME Poliban atau Himpunan Mahasiswa Elektro Politeknik Negeri Banjarmasin adalah Sebuah
-                    Organisasi Intra Kampus yang Menghimpun atau Menaungi para Mahasiswa, khususnya Mahasiswa
-                    Jurusan Teknik Elektro. Tujuan dibentuk-nya HME Poliban adalah untuk Menampung Aspirasi
-                    Mahasiswa Elektro sekaligus menjadi kaki tangan dari Jurusan Teknik Elektro.
+                    <span style="color: rgb(13, 100, 200)"><strong>MISI</strong></span>
+                    <br>
+                        1.Mengembangkan program kerja yang inovatif dan berdampak untuk pengembangan potensi Mahasiswa Elektro.
+                    <p>
+                        2.Meningkatkan koordinasi dan kolaborasi antar mahasiswa elektro guna terciptanya organisasi yang aktif.
+                    </p>
+                    <p>
+                        3.Menanamkan budaya rasa tanggung jawab, transparansi, dan menjunjung tinggi nilai kejujuran.  
+                    </p>
+
                 </p>
 
                 <p style="text-align: justify;">
@@ -40,12 +45,12 @@
       Wassalamualaikum Wr. Wb.
     </p> -->
 
-                <b style="font-size: 17px;">Andaria Bororing Efrandrico Daandel</b> <br>
+                <b style="font-size: 17px;">Muhammad Fajrianoor Syawalludin</b> <br>
 
                 <p style="font-size: 15px;">
                     <b>Ketua Umum Himpunan Mahasiswa Elektro Politeknik Negeri Banjarmasin</b>
+                    <b>Periode 2025/2026</b>
                 <p style="font-size: 15px;">
-                    <b>Periode 2024/2025</b>
 
                 </p>
             </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ControlPanelController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PresenceController;
 use App\Http\Controllers\ProfileController;
@@ -26,6 +27,7 @@ Route::get('/forget', function(){
 Route::middleware(['auth'])->group(function () {
 
     Route::resource('home', DashboardController::class);
+    Route::resource('controlPanel', ControlPanelController::class);
     Route::get('home', [DashboardController::class, 'index'])->name('home');
     Route::resource('dashboard', DashboardController::class)->except('update');
     Route::put('dashboard/{presence:id}', [DashboardController::class, 'update'])->name('update.presence');
